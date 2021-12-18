@@ -165,3 +165,6 @@ main {
   font-weight: 700;
   color: #eb638a;
 }
+img {
+  border-radius: 1rem;
+}
