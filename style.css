@@ -16,7 +16,11 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #b776c4 50%, #7b7576 100%);
+  background-image: linear-gradient(
+    to top right,
+    #b776c466 50%,
+    #a7f64066 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +68,7 @@ main {
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #1bee2d66;
 }
 .player--active .name {
   font-weight: 700;
@@ -126,7 +130,7 @@ main {
 .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
-  margin-right: 0.7rem;
+  /* margin-right: 0.7rem; */
 }
 
 .btn--new {
@@ -137,6 +141,8 @@ main {
 }
 .btn--hold {
   top: 46.1rem;
+}
+.btn-rules {
 }
 
 .btn:active {
@@ -167,4 +173,11 @@ main {
 }
 img {
   border-radius: 1rem;
+}
+.hidden {
+  display: none;
+}
+.win {
+  font-size: 30px;
+  color: #fff;
 }
