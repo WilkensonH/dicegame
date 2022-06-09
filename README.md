@@ -1,3 +1,5 @@
+<img src="Wilkensonkode.png" width="100" alt="logo"/>
+
 #### dice game 🎲
 
 two players game(can only be played in one computer)
