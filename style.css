@@ -18,8 +18,8 @@ body {
   color: #333;
   background-image: linear-gradient(
     to top right,
-    #b776c466 50%,
-    #a7f64066 100%
+    rgba(0, 0, 0, 0.848) 50%,
+    rgba(0, 0, 0, 0.262) 150%
   );
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ main {
 }
 
 .player--active {
-  background-color: #1bee2d66;
+  background-color: #e932cd66;
 }
 .player--active .name {
   font-weight: 700;
